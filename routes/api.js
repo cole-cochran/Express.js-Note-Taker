@@ -20,3 +20,9 @@ app.delete("/notes/:id", (req, res) => {
     })
 });
 
+app.get('/notes', (req,res)=>{
+    console.log(`${req.method} Request received so calm your pretty little ass down\n//////showing you the fucking list you dirty bastard//////// `)
+    res.status(200).json(db);
+    
+}
+)
