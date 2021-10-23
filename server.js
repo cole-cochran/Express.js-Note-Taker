@@ -1,4 +1,4 @@
-const express = reqire('express');
+const express = require('express');
 const fs = ('fs');
 const db = ('.db/db/json');
 const path = require('path');
