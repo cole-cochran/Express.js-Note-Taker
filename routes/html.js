@@ -9,7 +9,7 @@ app.get('/notes', (req, res) => {
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
-    console.info(`${req.method} request goin in ${req.path} received`)
+    console.info(`${req.method} request ${req.path} received`)
     
 });
 
